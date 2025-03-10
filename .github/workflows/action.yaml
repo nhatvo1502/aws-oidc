@@ -22,4 +22,4 @@ jobs:
           aws-region: us-east-1
       
       - name: AWS CLI
-        uses: aws s3 ls
+        run: aws s3 ls
